@@ -10,11 +10,11 @@ var ranimg2 = "dice"+randomNumber2+".png";
 document.querySelector(".img2").setAttribute("src",ranimg2);
 
 if(randomNumber1>randomNumber2){
-  document.querySelector("h3").innerHTML="BUBU WINS AS ALWAYS!😎";
+  document.querySelector("h3").innerHTML="Soumya WINS AS ALWAYS!😎";
 }
 else if(randomNumber2>randomNumber1){
-    document.querySelector("h3").innerHTML="GOGO CHEATED...😒 BU WINS🥱 ";
+    document.querySelector("h3").innerHTML="You CHEATED...😒 Soumya WINS🥱 ";
   }
   else{
-    document.querySelector("h3").innerHTML="GOGO NEEDS TO LEARN HOW TO PLAY🤪";
+    document.querySelector("h3").innerHTML="You NEED TO LEARN HOW TO PLAY🤪";
   }
